@@ -52,6 +52,7 @@ contract Vault {
     if (address(this).balance == 0) {
       return true;
     } 
+    return false;
   }
 
   function openWithdraw() external {
